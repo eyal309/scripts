@@ -34,3 +34,5 @@ if download.lower() == 'y' or download == '':
     driver.quit()
 else:
     driver.quit()
+    
+driver.quit()
