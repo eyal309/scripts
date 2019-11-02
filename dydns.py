@@ -48,5 +48,5 @@ def check_ip_addr():
 
 
 if not check_ip_addr() == ext_ip:
-    print(edit_dns_record())
+    edit_dns_record()
 
