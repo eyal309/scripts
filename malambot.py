@@ -63,7 +63,7 @@ def submit_btn(event=None):
 
     driver = webdriver.Chrome()
 
-    url = <malam url> # add url here
+    url = '<malam url>' # add url here
 
     driver.get(url)
 
