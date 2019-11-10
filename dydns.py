@@ -1,4 +1,4 @@
-import requests, json
+import requests, json, smtplib
 
 """
 very simple dynamic DNS using cloudflare's API
