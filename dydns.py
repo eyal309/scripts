@@ -56,4 +56,5 @@ def email_alert(msg):
 
 if not check_ip_addr() == ext_ip:
     edit_dns_record()
+    email_alert(f'ip changed: new ip {ext_ip}')
 
